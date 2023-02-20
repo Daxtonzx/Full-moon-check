@@ -21,7 +21,7 @@ else
 end
 Infomation = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
 NameGames = Infomation.Name
-_G.wephook = "https://discord.com/api/webhooks/953985132879020032/fc5CF_j4XSyJnUIl35x0p21zsDykzMxXd4P6n1Ljf00bqL3vfoT6sUYhEbinfwxHhPh2"
+_G.wephook = "https://discord.com/api/"
         if _G.wephook ~= "" then
             pcall(function()
                 local url =
